@@ -1,0 +1,61 @@
+:root {
+  --cinza-100: rgb(225, 225, 230);
+  --cinza-200: rgb(50, 50, 56);
+  --cinza-300: rgb(18, 18, 20);
+  --verde-100: rgb(0, 179, 126);
+  --verde-200: rgb(0, 154, 108);
+  --roxo-100: rgb(63, 0, 115);
+  --fonte-principal: "Roboto";
+}
+
+body {
+  color: var(--cinza-100);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 300;
+  background-color: var(--cinza-300);
+}
+
+header {
+  text-align: center;
+  background-color: var(--cinza-200);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p {
+  width: 41%;
+  font-size: 22px;
+  text-align: justify;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+img {
+  width: 300px;
+}
+
+.conteudo__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px 64px;
+  border: 2px solid var(--cinza-200);
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.pergunta__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
